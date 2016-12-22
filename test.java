@@ -16,6 +16,7 @@ public class Server {
              server = new ServerSocket(port);
              System.out.println("服务端启动---");
             //阻塞服务端 一直到客户端请求连接
+			 System.out.println("git  clone then add  and commit---");
              server.accept();
 
 
